@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<openerp><data>
+  <template id="index">
+    <title>Webdemo</title>
+    <t t-foreach="employees" t-as="employee">
+        <p><t t-esc="employee"/></p>
+    </t>
+  </template>
+</data></openerp>
+

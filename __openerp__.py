@@ -1,8 +1,12 @@
 {
     'name': "demo_website",
     'description': """
-    Website module for educational purpose
+    Website module for educational purposes
     """,
     'depends': ['base'],
+    'data': [
+        'templates.xml',
+    ],
+
 }
 
